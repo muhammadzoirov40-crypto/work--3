@@ -1,17 +1,96 @@
-*{
+* {
     margin: 0;
 }
-.aval,.box1{
+
+.aval,
+.box1 {
     padding: 7px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
-.box1 p{
+
+.box1 p {
     margin: 0px 10px;
 }
-.box1 button{
+
+.box1 button {
     padding: 7px 20px;
-    
+
+}
+
+.ha2 {
+    font-size: 50px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.pa2 {
+    text-align: center;
+}
+
+.form {
+    margin: 20px 0px;
+    border: 1px solid black;
+    width: 335px;
+    margin-left: 470px;
+}
+
+.form input,
+.form button {
+    padding: 7px 20px;
+    border: none;
+
+}
+
+.form input {
+    outline: none;
+}
+
+.form button {
+    background-color: rgb(161, 12, 210);
+    color: white;
+    padding-right: 28px;
+}
+
+.surati2 {
+    width: 80%;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: -50px;
+
+}
+
+@media(max-width: 500px) {
+
+    .aval,
+    .box1 {
+        gap: 10px;
+        margin: 0px 10px;
+        padding: 10px 0;
+        /* flex-direction: column; */
+    }
+
+    .box2 {
+        display: none;
+    }
+
+    .form {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .form {
+        width: 335px;
+        margin-left: 30px;
+    }
+    .surati2 {
+    width: 100%;
+    margin-left: 10px;
+    margin-top: -20px;
+
+}
+
+
 }
