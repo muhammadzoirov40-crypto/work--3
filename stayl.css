@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+.aval,.box1{
+    padding: 7px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.box1 p{
+    margin: 0px 10px;
+}
+.box1 button{
+    padding: 7px 20px;
+    
+}
