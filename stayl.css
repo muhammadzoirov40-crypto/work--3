@@ -62,6 +62,26 @@
 
 }
 
+.ce {
+    display: flex;
+
+}
+
+.chapce {
+    margin: 20px 100px;
+}
+
+.rostce {
+
+    margin: 20px 0px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.rostce p {
+    margin: 10px 0px;
+}
+
 @media(max-width: 500px) {
 
     .aval,
@@ -85,12 +105,13 @@
         width: 335px;
         margin-left: 30px;
     }
-    .surati2 {
-    width: 100%;
-    margin-left: 10px;
-    margin-top: -20px;
 
-}
+    .surati2 {
+        width: 100%;
+        margin-left: 10px;
+        margin-top: -20px;
+
+    }
 
 
 }
