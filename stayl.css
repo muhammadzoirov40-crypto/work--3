@@ -159,7 +159,23 @@ table {
 .tel{
     display: none;
    }
-
+   .ha22{
+    font-size: 20px;
+    color: blueviolet;
+   }
+   .sha6{
+    display: flex;
+    gap: 20px;
+   }
+   .sha6 img{
+    width: ;
+   }
+   .cha61{
+    background-color: rgb(255, 222, 124);
+   }
+   .cha62 img{
+    background-color: rgb(0, 255, 242);
+   }
 @media(max-width: 500px) {
 
     .aval,
@@ -177,6 +193,7 @@ table {
     .form {
         width: 100%;
         margin-left: 0px;
+        margin-top: 30px;
     }
 
     .form {
@@ -250,6 +267,12 @@ table {
    }
    .tel img{
     width: 98%;
+   }
+   .sha6{
+    display: block;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
    }
 
 }
